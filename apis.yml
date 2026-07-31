@@ -1,7 +1,29 @@
 aid: operand
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/operand.png
 name: Operand
-description: Operand is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Operand is an AI-enabled pricing and commercial strategy platform for consumer
+  retail, founded in 2024 and backed by Felicis, Y Combinator, SV Angel, and Soma
+  Capital. It applies proprietary AI systems — an autonomous "agent swarm" — to set
+  pricing and promotion strategy for mid-market and enterprise brands and retailers
+  managing thousands of SKUs, volatile demand, and thin margins, running simulations
+  to benchmark margin, revenue, and inventory-turn objectives before automating price
+  changes. Operand is delivered as a managed platform with expert support and
+  request-a-quote pricing rather than a public developer API; it currently publishes
+  no OpenAPI, developer portal, or self-serve SDKs. An earlier Operand product at
+  operand.ai offered an embeddings / semantic-search API with Python, Go, and
+  TypeScript SDKs, now discontinued.
 url: https://raw.githubusercontent.com/api-evangelist/operand/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Retail
+- Pricing
+- Commercial Strategy
+- Consumer
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,14 @@ maintainers:
 common:
 - type: Website
   url: https://operand.com
+- type: Blog
+  url: https://www.operand.com/publication/
+- type: GitHubOrganization
+  url: https://github.com/operandinc
+- type: DomainSecurity
+  url: security/operand-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
