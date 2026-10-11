@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "operand",
+    "captured_at": "2026-10-11T192008",
+    "source_url": "https://operand.com",
+    "source_type": "Website",
+    "file": "operand-2026-10-11T192008.png",
+    "bytes": 578150,
+    "capture": "playwright-local"
+  }
+]
